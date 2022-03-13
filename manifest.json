@@ -1,6 +1,30 @@
 {
-    "manifest_version": 2,
     "name": "Shop with meaning",
+    "version": "1.0",
+    "manifest_version": 3,
     "description": "Do something from your couch/chair, put your money where it has an impact!",
-    "version": "1.0"
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.continente.pt/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "css/main.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "host_permissions": [
+        "*://*/*"
+    ],
+    "action": {
+        "default_icon": "img/icon.png",
+        "default_popup": "popup.html"
+    }
 }
