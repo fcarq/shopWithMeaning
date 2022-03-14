@@ -2,7 +2,7 @@
     "name": "Shop with meaning",
     "version": "1.0",
     "manifest_version": 3,
-    "description": "Do something from your couch/chair, put your money where it has an impact!",
+    "description": "Find if the brand you are buying is worthy of your money!",
     "content_scripts": [
         {
             "matches": [
