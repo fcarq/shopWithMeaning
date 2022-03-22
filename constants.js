@@ -1,0 +1,2 @@
+export const WEBSITE_TYPE_ONE_BRAND = 'WS_TYPE_ONE';
+export const WEBSITE_TYPE_MULT_BRAND = 'WS_TYPE_MULT';
