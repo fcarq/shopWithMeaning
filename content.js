@@ -1,5 +1,7 @@
 
 // Todo: move the contants to a new file and import them?
+
+// https://github.com/fcarq/shopWithMeaning/wiki/Type-of-websites
 const WEBSITE_TYPE_ONE_BRAND = 'WS_TYPE_ONE';
 const WEBSITE_TYPE_MULT_BRAND = 'WS_TYPE_MULT';
 
@@ -91,6 +93,8 @@ function processPage() {
     case WEBSITE_TYPE_ONE_BRAND:
       // todo
       break;
+
+
     case WEBSITE_TYPE_MULT_BRAND:
       processMultiBrandWebsite();
       break;
