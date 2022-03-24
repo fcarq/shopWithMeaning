@@ -29,8 +29,13 @@
     },
     "web_accessible_resources": [
         {
-          "resources": [ "/img/good.png"],
-          "matches": [ "*://*/*" ]
+            "resources": [
+                "/img/good.png",
+                "constants.js"
+            ],
+            "matches": [
+                "*://*/*"
+            ]
         }
-      ]
+    ]
 }
